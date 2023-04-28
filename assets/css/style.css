@@ -1,0 +1,38 @@
+html {
+    background-color: whitesmoke;
+}
+
+#selectActividad {
+    background-color: white;
+}
+
+.tarjeta {
+    position: relative;
+    height: 60vw;
+    border-radius: 3%;
+}
+
+.foto {
+    position: absolute;
+    width: 93%;
+    height: 60vw;
+    border-radius: 3%;
+}
+
+.texto-foto {
+    font-family: monospace;
+    position: absolute;
+    width: 93%;
+    height: 60vw;
+    padding-left: 32%;
+    padding-top: 25%;
+    background: rgb(12, 12, 12, 0.5);
+    color: white;
+    border-radius: 3%;
+    display: none;
+}
+/* CONSIDERAR HACER UN DIV CON LOS TEXTOS dentro del DIV con el fondo negro transparente y hacer un content align center y justify content center */
+
+.boton {
+    border: none;
+}
